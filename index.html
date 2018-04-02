@@ -1,1 +1,121 @@
-<h1>Hello, World!</h1>
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>Lesley Hogg | Creative Developer</title>
+      <meta name="description" content="Portfolio website of front-end developer and designer Lesley Hogg">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="manifest" href="site.webmanifest">
+      <link rel="apple-touch-icon" href="icon.png">
+
+      <!-- Stylesheets -->
+      <link rel="stylesheet" href="css/normalize.css" type="text/css">
+      <link rel="stylesheet" href="css/main.css" type="text/css">
+      <link rel="stylesheet" href="css/animations.css">
+
+      <!-- JQuery -->
+      <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+      <!-- Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    </head>
+    <!-- Hey there! Welcome to my website's HTML! -->
+    <body>
+      <div class="wrapper">
+
+        <header id="top">
+          <div class="nav">
+            <ul class="menu">
+              <li class="logo"><a href="#top">LH</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="hero slide-up">
+            <h1 id="h1-first"><span>Hi, I'm Lesley!</span></h1>
+            <h1 id="h1-second">I'm a creative front-end developer.</h1>
+          </div>
+        </header>
+
+        <div id="about"></div>
+        <div class="about">
+          <p class="bio">I am a <span>baseball enthusiast</span><br>freelance designer and developer <br>based in Northampton, MA.<br><br>I enjoy creating beautiful,<br>functional designs and supporting<br>them with clean, elegant code.</p>
+          <img class="bio"src="img/baseball.png" alt="Lesley sneakily wearing Washington Nationals gear at a Hiroshima Carp baseball game in Japan. Go Nats!"/>
+          <div class="skills design">
+            <img src="img/design.png" alt="designer logo">
+            <h2>UX Design</h2>
+            <p>I am skilled in Photoshop, Illustrator, and InDesign. My work incorporates UX design standards, such as user personas, site maps, wireframes, and usability testing.</p>
+          </div>
+          <div class="skills develop">
+            <img src="img/development.png" alt="developer logo">
+            <h2>Development</h2>
+            <p>I work with HTML5, CSS, and JavaScript. I focus on keeping my code clean and efficient, and I make it a habit to stay up to date on current best practices.</p>
+          </div>
+        </div>
+      </div> <!-- end of first wrapper grid -->
+
+        <div id="work" class="wrapper work">
+          <h2>Latest work</h2>
+          <div class="projects">
+            <div class="square">
+              <a href="https://www.behance.net/gallery/62527689/WordPress-Business-Site-Accelerate-Marketing" target="_blank"><img class="proj-4" src="img/accelerate.jpg"/></a>
+            </div>
+            <div class="square">
+              <a href="https://www.behance.net/gallery/61850945/WordPress-Blog-Custom-Theme" target="_blank"><img class="proj-1" src="img/wp-blog.png"/></a>
+            </div>
+            <div class="square">
+              <a href="https://www.behance.net/gallery/61851079/Responsive-Website-Unplugged" target="_blank"><img class="proj-2" src="img/unplugged.png"/></a>
+            </div>
+            <div class="square">
+              <a href="js/index.html" target="_blank"><img class="proj-3" src="img/js-project.png"/></a>
+            </div>
+          </div>
+          <a id="btn" href="https://www.behance.net/hi0358" target="_blank">See all projects</a>
+        </div>
+
+        <div id="contact" class="contact">
+          <h2>Need a responsive, mobile-ready website?</h2>
+          <h2><span>Let's work together!</span></h2>
+          <a id="email" href="mailto:hi@lesleyhogg.com" target="_blank">hi@lesleyhogg.com</a>
+            <div class="social">
+              <ul>
+                <li><a href="https://www.linkedin.com/in/lesleyhogg/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/lesleyhogg" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.instagram.com/lesleyhogggg/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/violahogg" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="blog/index.html" target="_blank"><i class="fab fa-wordpress"></i></a></li>
+              </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer">
+        <ul class="footer-menu">
+          <li><a href="#top">Welcome</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p>Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i> using CSS Grid</p>
+      </div>
+
+      <!-- JavaScript: Hooray! -->
+      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+      <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+      <script src="js/plugins.js"></script>
+      <script src="js/script.js"></script>
+
+      <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+      <script>
+          window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+          ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+      </script>
+      <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>

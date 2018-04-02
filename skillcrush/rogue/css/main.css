@@ -1,0 +1,160 @@
+/**** BASE STYLES ****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+/**** GRID ****/
+
+.width-full {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.width-half {
+  width: 600px;
+  float: left;
+}
+
+.width-third {
+  width: 399px;
+  height: 210px;
+  float: left;
+}
+
+/**** HEADER ****/
+
+header {
+  height: 110px;
+}
+
+header h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 23px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+header h1 span {
+  color: #669966;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-top: 30px;
+}
+
+nav ul li a {
+  font-size: 14px;
+  color: #669966;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 20px;
+  line-height: 23px;
+  font-weight: 600;
+}
+
+/**** ABOUT ****/
+
+#about img {
+  width: 1200px;
+  border-top: 3px solid #669966;
+  border-bottom: 3px solid #669966;
+}
+
+#about h2 {
+  color: #669966;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-top: 5px;
+  line-height: 25px;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+/**** THIRDS ****/
+
+#third-left, #third-right {
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+  width: 32%;
+}
+
+#third-inner {
+  border: 1px solid #dedbdc;
+  margin: 0;
+}
+
+#third-right {
+  margin: 0;
+  padding-left: 30px;
+}
+
+#thirds h3 {
+  font-size: 12px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 12px;
+}
+
+#thirds ul {
+  padding-left: 0;
+}
+
+#thirds ul li {
+  font-size: 16px;
+  line-height: 18px;
+  color: #669966;
+  display: block;
+  padding-bottom: 20px;
+}
+
+#thirds p {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+#third-inner p {
+  padding: 0 30px;
+}
+
+#third-inner h3 {
+  padding-left: 30px;
+}
+
+#thirds #address {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/**** FOOTER ****/
+
+footer {
+  clear: both;
+}
+
+footer h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  line-height: 23px;
+  padding: 30px 0;
+}
+
+footer h2 span {
+  color: #669966;
+  font-family: 'Dancing Script', cursive;
+}
